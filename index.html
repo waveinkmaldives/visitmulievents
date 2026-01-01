@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VisitMuli Events - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Main Navigation Bar: Site-wide navigation -->
+    <div class="container-fluid mb-3">
+      <!-- Main Navbar: Home, About, Events, Contact -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">VisitMuli Events</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sportsaward">Award</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sponsors">Collaboration</a></li>
+              <li class="nav-item"><a class="nav-link" href="#footer-contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Events Navigation Bar: Quick event links -->
+    <div class="container mb-3">
+      <!-- Events Navbar: Links to featured events -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded shadow-sm">
+        <div class="container-fluid">
+          <span class="navbar-text fw-bold">Featured Events:</span>
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item"><a class="nav-link" href="#kanzurun">KANZURUN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#futsal">FUTSAL</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skateboarding">SKATEBOARDING</a></li>
+          </ul>
+          <a href="events.html#register" class="btn btn-success ms-auto">Register</a>
+        </div>
+      </nav>
+    </div>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero" class="container mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="display-4 fw-bold">Welcome to VisitMuli Events</h1>
+          <p class="lead">Discover, join, and celebrate the best events in Muli. From sports to culture, we bring the community together!</p>
+          <a href="#events" class="btn btn-primary btn-lg">Explore Events</a>
+          <a href="events.html" class="btn btn-outline-secondary btn-lg ms-2">Learn More</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <!-- Removed Kanzurun image as requested -->
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section -->
+        <!-- Visit Muli Sports Award Section -->
+        <section id="sportsaward" class="container mb-5">
+          <div class="text-center mb-4">
+            <img src="img/visitmulisportsaward-100.jpg" alt="Visit Muli Sports Award" class="img-fluid rounded shadow" style="max-height:320px; width:auto;">
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h2 class="fw-bold mb-3 text-center" style="color:#0d6efd;">Visit Muli Sports Award</h2>
+              <p class="lead text-center">Celebrating the outstanding athletes, teams, and contributors who inspire and elevate the spirit of sports in Muli. Join us as we honor excellence, dedication, and community impact through the Visit Muli Sports Award.</p>
+              <ul class="list-group mb-3 mx-auto" style="max-width:400px;">
+                <li class="list-group-item">Best Male Athlete</li>
+                <li class="list-group-item">Best Female Athlete</li>
+                <li class="list-group-item">Best Youth Athlete</li>
+                <li class="list-group-item">Best Team</li>
+                <li class="list-group-item">Best Coach</li>
+                <li class="list-group-item">Community Impact Award</li>
+                <li class="list-group-item">Lifetime Achievement</li>
+              </ul>
+              <div class="text-center">
+                <a href="#" class="btn btn-outline-primary btn-lg">Read More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+    <section id="about" class="container mb-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="card border-primary shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title mb-3">About Us</h2>
+              <p class="mb-2"><strong>Our Mission:</strong> To open Muli for opportunities to engage in sports, community engagements, surveys, and awareness.</p>
+              <p class="mb-2"><strong>Our Vision:</strong> To host the island through sports tourism and community engagement activities.</p>
+              <p class="mb-0">We are passionate about creating platforms for everyone to participate, connect, and grow. Join us as we make Muli a vibrant hub for sports and community!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Event Highlights Section -->
+    <section id="events" class="container mb-5">
+      <h2 class="mb-4">Upcoming Events</h2>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 500px; margin: 0 auto;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="KANZURUN"></button>
+              <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="FUTSAL"></button>
+              <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="SKATEBOARDING"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/KANZURUN-100.jpg" class="d-block w-100" alt="KANZURUN">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                  <h5>KANZURUN</h5>
+                  <p>Join the annual Kanzurun marathon and run with the best!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/FUTSAL.jpg" class="d-block w-100" alt="FUTSAL">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                  <h5>FUTSAL</h5>
+                  <p>Experience the thrill of Futsal tournaments in Muli.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/SKATEBOARDING-100.jpg" class="d-block w-100" alt="SKATEBOARDING">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                  <h5>SKATEBOARDING</h5>
+                  <p>Show your skills at the Skateboarding championship!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="container mb-5">
+      <h2 class="mb-4 section-title">Sponsors &amp; Partners</h2>
+      <div class="section-bg">
+        <div class="row g-4 justify-content-center">
+        <div class="col-md-3">
+          <div class="badge-card border-success h-100">
+            <img src="img/main-sponsor.png" alt="Main Sponsor" class="badge-img" onerror="this.style.display='none'">
+            <ul class="badge-list list-unstyled mb-0">
+              <li class="mb-1"><a href="https://maldivian.aero/" target="_blank" class="text-success fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Maldivian</a></li>
+              <li class="mb-1"><a href="https://www.facebook.com/muleecouncil/" target="_blank" class="text-success fw-semibold text-decoration-none sponsor-link"><i class="bi bi-facebook"></i> Secretariat of Mulee Council</a></li>
+              <li class="mb-1"><a href="https://www.bankofmaldives.com.mv/" target="_blank" class="text-success fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> BML</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="badge-card border-primary h-100">
+            <img src="img/associate-partner.png" alt="Associate Partner" class="badge-img" onerror="this.style.display='none'">
+            <ul class="badge-list list-unstyled mb-0">
+              <li class="mb-1"><a href="https://www.facebook.com/MeemuPolice/" target="_blank" class="text-primary fw-semibold text-decoration-none sponsor-link"><i class="bi bi-facebook"></i> Memu Police Club</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-primary fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> MRH Club</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-primary fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Meemu Atoll Council Recreation Club</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="badge-card border-warning h-100">
+            <img src="img/hosting-partner.png" alt="Hosting Partner" class="badge-img" onerror="this.style.display='none'">
+            <ul class="badge-list list-unstyled mb-0">
+              <li class="mb-1"><a href="#" target="_blank" class="text-warning fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Ayyu Academy</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-warning fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Ethimi Sports Academy</a></li>
+              <li class="mb-1"><a href="https://www.facebook.com/muleesportsclub/" target="_blank" class="text-warning fw-semibold text-decoration-none sponsor-link"><i class="bi bi-facebook"></i> Mulee Sports Club</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-warning fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Society for Youth Enhancement</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-warning fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Mulee Ekuveringe Gulhun</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="badge-card border-danger h-100">
+            <img src="img/title-sponsor.png" alt="Title Sponsor" class="badge-img" onerror="this.style.display='none'">
+            <ul class="badge-list list-unstyled mb-0">
+              <li class="mb-1"><a href="#" target="_blank" class="text-danger fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Donard</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-danger fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Metal Sign</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="badge-card border-info h-100">
+            <img src="img/kit-partner.png" alt="Kit Partner" class="badge-img" onerror="this.style.display='none'">
+            <ul class="badge-list list-unstyled mb-0">
+              <li class="mb-1"><a href="#" target="_blank" class="text-info fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Feyliart</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-info fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Swift Garments</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="badge-card border-secondary h-100">
+            <img src="img/printing-partner.png" alt="Printing & Logistics Partner" class="badge-img" onerror="this.style.display='none'">
+            <ul class="badge-list list-unstyled mb-0">
+              <li class="mb-1"><a href="#" target="_blank" class="text-secondary fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Ansof Printing</a></li>
+              <li class="mb-1"><a href="#" target="_blank" class="text-secondary fw-semibold text-decoration-none sponsor-link"><i class="bi bi-link-45deg"></i> Swift Logistics</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer-contact" class="container text-center py-4">
+      <small>&copy; 2026 VisitMuli Events. All rights reserved.</small>
+      <div class="mt-2">
+        <span class="d-block">Contact: <a href="tel:+9609518486">+960 951 8486</a> | <a href="mailto:visitmuli@gmail.com">visitmuli@gmail.com</a></span>
+      </div>
+      <div class="mt-3">
+        <span class="fw-bold">Quick Links:</span>
+        <a href="#events" class="mx-2">Events</a>
+        <a href="#eventsCarousel" class="mx-2">Upcoming Events</a>
+        <a href="#mainNavbar" class="mx-2">Back to Top</a>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
